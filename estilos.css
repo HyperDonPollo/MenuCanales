@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Portada carrera*/
+*{
+    font-family: "Kanit", sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+.primera{
+    height: 100vh;
+    background-image: url("avioncito.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo{
+    margin: 0;
+    font-size: 75px;
+    font-family: 'Times New Roman';
+
+}
+
+.textito{
+    font-size: large;
+    font-family: "Kanit", sans-serif;
+
+}
+
+
+.boton{
+    background-color:cadetblue;
+    border-radius: 10px;
+    color:whitesmoke;
+    width:160px;
+    height:60px;
+    border-style: none;
+    font-size: medium;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Menu Carrera */
+
+.redesSociales{
+    background-color: cadetblue;
+    text-align: center;
+
+}
+
+.logos{
+    width: 50px;
+    margin: 5px 5px 0px 5px;
+}
+
+.extras{
+    height: 100px;
+    background-color:darkslategray ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+
+.logoP{
+    width: 80px;
+}
+
+.lista{
+    display: flex;
+}
+
+.cosalista{
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.main_img{
+    height: 380px;
+    margin: 70px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.main1{
+    justify-content: center;
+    display: flex ;
+    align-items:center;
+    background-color: cadetblue;
+}
+
+.main2{
+    text-align:center;
+    margin: 40px;   
+}
+.main_titulo{
+    font-size: 40px;
+}
+
+.main_texto{
+    font-size: 25px;
+    margin: 10px 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.primeros3{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0;
+    background-color: darkslategray;
+}
+
+.juego{
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+    width: 800px;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 50px; 
+}
+
+#elden{
+    width: 250px;
+}
+
+.img1{
+    width: 120px;
+    border-radius: 5px;
+    margin: 60px 0 0 0;
+}
+
+.titulo1{
+    margin: 10px 0;
+}
+
+.desc{
+    margin: 10px 70px;
+}
+
+.boton1{
+    color: rgb(241, 234, 234);
+    width: 200px ;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    background-color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-color: aliceblue;
+    border-radius:10px;
+}
+
+.pie{
+    background: linear-gradient(cadetblue, darkslategray);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
